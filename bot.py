@@ -1,4 +1,5 @@
-TOKEN = "MTQ5MDA5MTE3NjM1ODA1NjA2OA.GPBWmF.cRwYT1nPGwkGWSmkgG5rT0DOnOWDTIRLSoPzw0"
+import os
+TOKEN = os.getenv("TOKEN")
 import discord
 from discord.ext import commands
 import random
